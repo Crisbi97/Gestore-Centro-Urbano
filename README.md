@@ -1,6 +1,3 @@
 # Gestore-Centro-Urbano
 
-Progetto POO (Programmazione Object Oriented) - Anno accademico 2017/2018
-
-Centro Urbano è un progetto universitario scritto in Java.
-Il programma è stato sviluppato per gestire la mappatura di un complesso cittadino.
+Centro Urbano è un progetto universitario scritto in Java. Il sistema realizzato è sviluppato per la pianificazione dello sviluppo di un centro urbano. Un centro urbano è composto da un insieme di settori geografici contigui disposti a griglia. Ogni settore è suddiviso in un insieme di lotti (disposti anch'essi a griglia) che possono contenere un edificio, una strada o essere liberi. Ogni elemento contenuto in un lotto ha un coefficiente di efficienza espressa con un intero nell'intervallo [0,100], e un coefficiente di invecchiamento espresso attraverso un intero nell'intervallo [1,10]. Gli edifici possono essere pubblici (scuole, ospedali, stadi, caserme, parcheggi, etc.) o privati (centri commerciali, palazzi con uffici e abitazioni, sedi di società, etc.). Gli edifici privati hanno un valore e possono essere venduti ad un prezzo pari al loro valore moltiplicato per il coefficiente di efficienza diviso 100. Gli edifici pubblici aumentano il valore degli edifici privati dello stesso settore. La demolizione degli edifici privati è immediata mentre la demolizione degli edifici pubblici richiede due cicli di invecchiamento. Le strade servono tutti i lotti adiacenti e aumentano il valore degli edifici nei lotti serviti.
